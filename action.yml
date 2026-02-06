@@ -1,0 +1,9 @@
+name: 'Greet'
+description: 'Logs a greeting message using an input parameter'
+inputs:
+  name:
+    description: 'Name to greet'
+    required: true
+runs:
+  using: 'node24'
+  main: 'dist/index.js'
