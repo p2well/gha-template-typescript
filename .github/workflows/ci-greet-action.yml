@@ -46,4 +46,4 @@ jobs:
       - name: Test action works
         uses: ./
         with:
-          who-to-greet: 'GitHub Actions CI'
+          name: 'GitHub Actions CI'
